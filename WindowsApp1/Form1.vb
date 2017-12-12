@@ -1,4 +1,4 @@
-﻿Imports WindowsApp1.ServiceReference1
+﻿Imports WindowsApp1.ServiceReference2
 
 Public Class Form1
 
@@ -25,7 +25,7 @@ Public Class Form1
 
         'Crea la referencia al web service 
 
-        Dim jws As New ServiceReference1.ServiceSoapClient
+        Dim jws As New ServiceReference2.ServiceSoapClient
         Dim resultado As Boolean = True
         Dim nombreApellido As String = ""
         Dim edad As Integer = 0
@@ -200,7 +200,7 @@ Public Class Form1
 
         'Crea la referencia al web service 
 
-        Dim jws As New ServiceReference1.ServiceSoapClient
+        Dim jws As New ServiceReference2.ServiceSoapClient
         Dim resultado As Boolean = True
         Dim nombreApellido As String = ""
         Dim edad As Integer = 0

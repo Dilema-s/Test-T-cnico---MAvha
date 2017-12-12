@@ -1,5 +1,5 @@
 ﻿
-Imports WindowsApp1.ServiceReference1
+Imports WindowsApp1.ServiceReference2
 Imports System.Data.SqlClient
 
 Public Class Frm_bajaModificar
@@ -31,7 +31,7 @@ Public Class Frm_bajaModificar
 
     Private Sub actualizarPersonas()
         Try
-            Dim ws As New ServiceReference1.ServiceSoapClient
+            Dim ws As New ServiceReference2.ServiceSoapClient
 
 
             Dim lista As List(Of String) = New List(Of String)
@@ -126,7 +126,7 @@ Public Class Frm_bajaModificar
 
         'Crea la referencia al web service 
 
-        Dim ws As New ServiceReference1.ServiceSoapClient
+        Dim ws As New ServiceReference2.ServiceSoapClient
         Dim selectedRowCount As Integer = dgvPersona.Rows.GetRowCount(DataGridViewElementStates.Selected)
 
         If selectedRowCount > 0 Then

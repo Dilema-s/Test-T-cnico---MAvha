@@ -22,6 +22,26 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TestTecnico", "..\..\WebSit
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "23631"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		ProjectReferences = "{ecd6228c-f7af-46a3-8802-936ff5fe2ad3}|Negocio_logica.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_23631"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\TestTecnico\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_23631\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_23631"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\TestTecnico\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_23631\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "23631"
 		SlnRelativePath = "..\..\WebSites\TestTecnico\"
 		DefaultWebSiteLanguage = "Visual Basic"
 	EndProjectSection
@@ -36,6 +56,30 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	EndProjectSection
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WindowsApp1", "WindowsApp1\WindowsApp1.vbproj", "{0D496D09-2148-4456-86D0-C7C433FE1B88}"
+	ProjectSection(ProjectDependencies) = postProject
+		{673C19C1-5606-46DC-8245-9AB0231A138B} = {673C19C1-5606-46DC-8245-9AB0231A138B}
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TestTecnico(1)", "TestTecnico\", "{673C19C1-5606-46DC-8245-9AB0231A138B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv3.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_35905"
+		Debug.AspNetCompiler.PhysicalPath = "TestTecnico\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_35905\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_35905"
+		Release.AspNetCompiler.PhysicalPath = "TestTecnico\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_35905\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "35905"
+		SlnRelativePath = "TestTecnico\"
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +103,10 @@ Global
 		{0D496D09-2148-4456-86D0-C7C433FE1B88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D496D09-2148-4456-86D0-C7C433FE1B88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D496D09-2148-4456-86D0-C7C433FE1B88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{673C19C1-5606-46DC-8245-9AB0231A138B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{673C19C1-5606-46DC-8245-9AB0231A138B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{673C19C1-5606-46DC-8245-9AB0231A138B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{673C19C1-5606-46DC-8245-9AB0231A138B}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
